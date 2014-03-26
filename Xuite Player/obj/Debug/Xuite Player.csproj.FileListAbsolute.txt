@@ -1,0 +1,58 @@
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\App.xbf
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\MainPage.xbf
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\Xuite Player.exe
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\Xuite Player.pdb
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\resources.pri
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\AppxManifest.xml
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\Xuite Player.build.appxrecipe
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\App.g.i.cs
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\App.g.cs
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\MainPage.g.i.cs
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\MainPage.g.cs
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\XamlTypeInfo.g.cs
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\App.xaml
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\App.xbf
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\XamlSaveStateFile.xml
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\MainPage.xaml
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\MainPage.xbf
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\Xuite Player.exe
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\Xuite Player.pdb
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\priconfig.xml
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\priconfig.xml.intermediate
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\layout.resfiles
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\layout.resfiles.intermediate
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\resources.resfiles
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\resources.resfiles.intermediate
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\pri.resfiles
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\pri.resfiles.intermediate
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\qualifiers.txt
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\qualifiers.txt.intermediate
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\ProjectArchitectures.txt
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\SearchItem.xbf
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\SearchItem.g.i.cs
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\SearchItem.g.cs
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\SearchItem.xaml
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\SearchItem.xbf
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\Microsoft.Advertising.WinRT.UI.winmd
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\Microsoft.Advertising.WinRT.UI.xml
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\MicrosoftAdvertising.winmd
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\MicrosoftAdvertising.xml
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\Exa.dll
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\MySql.Data.dll
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\Exa.pdb
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\Xuite Player.csprojResolveAssemblyReference.cache
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\MySql.Data\en-US\MySql.Data.MySqlClient.Properties.Resources.resw
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\Xuite Player.csproj.GenerateResource.Cache
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\MySql.Data.pri
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\MySql.Data\qualifiers.txt
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\Loading.xbf
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\Loading.g.i.cs
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\Loading.g.cs
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\Loading.xaml
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\Loading.xbf
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\PlayerPage.xbf
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\PlayerPage.g.i.cs
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\PlayerPage.g.cs
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\PlayerPage.xaml
+C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\obj\Debug\PlayerPage.xbf

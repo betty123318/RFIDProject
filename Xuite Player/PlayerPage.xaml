@@ -1,0 +1,74 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="Xuite_Player.PlayerPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Xuite_Player"
+    xmlns:common="using:Xuite_Player.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" NavigationCacheMode="Enabled">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="Assets/CG/02.jpg"/>
+        </Grid.Background>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle_Bg" Text="Media Title" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="2,0,27,38" Foreground="Black"/>
+            <TextBlock x:Name="pageTitle" Text="Media Title" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
+        </Grid>
+        <MediaElement x:Name="Player" Margin="10,10,10,68" Grid.Row="1" MediaOpened="Player_MediaOpened" Position="{Binding PlayerTime, ElementName=pageRoot,Mode=TwoWay}" AutoPlay="False" MediaEnded="Player_MediaEnded" IsLooping="{Binding IsChecked, ElementName=RepPlay}" Volume="{Binding Value, ElementName=Vol}"/>
+        <Slider x:Name="TimeLine" Margin="170,0,238,23" Grid.Row="1" Height="41" VerticalAlignment="Bottom" Background="#29003C83" Value="{Binding Time, ElementName=pageRoot,Mode=TwoWay}" IsThumbToolTipEnabled="False"/>
+
+
+        <TextBlock HorizontalAlignment="Left" Margin="110,0,0,30" Grid.Row="1" TextWrapping="Wrap" Text="{Binding Text, ElementName=NowTime}" Width="56" FontSize="22" Height="23" VerticalAlignment="Bottom" Foreground="Black"/>
+        <TextBlock x:Name="NowTime" HorizontalAlignment="Left" Margin="109,0,0,31" Grid.Row="1" TextWrapping="Wrap" Text="00:00" Width="56" FontSize="22" Height="23" VerticalAlignment="Bottom"/>
+
+        <TextBlock Margin="0,0,176,30" Grid.Row="1" TextWrapping="Wrap" Text="{Binding Text, ElementName=MaxTime}" VerticalAlignment="Bottom" Height="23" FontSize="22" HorizontalAlignment="Right" Width="56" Foreground="Black"/>
+        <TextBlock x:Name="MaxTime" Margin="0,0,177,31" Grid.Row="1" TextWrapping="Wrap" Text="00:00" VerticalAlignment="Bottom" Height="23" FontSize="22" HorizontalAlignment="Right" Width="56"/>
+
+        <AppBarToggleButton x:Name="RepPlay" Icon="Refresh" HorizontalAlignment="Left" Label="" Margin="34,0,0,-11" Grid.Row="1" VerticalAlignment="Bottom" Foreground="White" Width="73"/>
+        <AppBarButton x:Name="PlayButton" HorizontalAlignment="Left" Label="" Margin="-20,0,0,-10" Grid.Row="1" VerticalAlignment="Bottom" RenderTransformOrigin="0.285,0.192" Icon="Play" Height="87" Click="PlayButton_Click" Width="75"/>
+        <AppBarButton x:Name="PauseButton" HorizontalAlignment="Left" Label="" Margin="-20,0,0,-10" Grid.Row="1" VerticalAlignment="Bottom" RenderTransformOrigin="0.285,0.192" Icon="Pause" Height="87" Click="PauseButton_Click" Width="75"/>
+
+        <Slider x:Name="Vol" HorizontalAlignment="Right" Margin="0,0,10,23" Grid.Row="1" VerticalAlignment="Bottom" Width="112" LargeChange="0.1" Height="41" Maximum="1" SmallChange="0.01" StepFrequency="0.01" Value="1" IsThumbToolTipEnabled="False"/>
+        <AppBarButton x:Name="VolE" HorizontalAlignment="Right" Label="" Margin="0,0,129,-11" Grid.Row="1" VerticalAlignment="Bottom" Width="72" Click="AppBarButton_Click" Icon="Volume" Visibility="Collapsed"/>
+        <AppBarButton x:Name="VolD" HorizontalAlignment="Right" Label="" Margin="0,0,129,-11" Grid.Row="1" VerticalAlignment="Bottom" Width="72" Click="AppBarButton_Click" Icon="Mute"/>
+
+
+    </Grid>
+</Page>

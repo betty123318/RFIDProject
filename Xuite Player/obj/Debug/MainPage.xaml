@@ -1,0 +1,98 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="Xuite_Player.MainPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Xuite_Player"
+    xmlns:common="using:Xuite_Player.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">Player</x:String>
+    </Page.Resources>
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:ConnectionId='1' x:Name="SelectAllButton" Label="全選" Icon="SelectAll" Visibility="Collapsed"                              />
+            <AppBarButton x:ConnectionId='2' x:Name="NotSelectAllButton" Label="取消全選" Icon="ClearSelection" Visibility="Collapsed"                                 />
+            <AppBarButton x:Name="AddButton" Label="加入清單" Icon="Add" Visibility="Collapsed"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/CG/02.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.Background>
+                <ImageBrush Stretch="Fill"/>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="827*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,0,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button" Height="41" Width="41"/>
+            <TextBlock x:Name="pageTitle_Bg" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="2,0,27,38" Foreground="Black" Grid.ColumnSpan="2" Height="40"/>
+            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" Grid.ColumnSpan="2" Height="40"/>
+            <SearchBox x:ConnectionId='4' x:Name="SearchBox" Grid.Column="2" Margin="0,68,68,0" VerticalAlignment="Top"                                           Height="32" HorizontalAlignment="Right" Width="283"/>
+            <Image HorizontalAlignment="Left" Height="52" Margin="10,56,0,0" VerticalAlignment="Top" Width="104" Source="Assets/XUITE.png"/>
+        </Grid>
+
+        <local:Loading x:Name="loading" Width="200" Height="100" Grid.Row="1"></local:Loading>
+        <GridView x:ConnectionId='3' x:Name="OUTPUT" Margin="10" Grid.Row="1" SelectionMode="None"                             >
+            <GridView.Resources>
+                <DataTemplate x:Key="DataTemplateGridViewMain">
+                    <Grid x:Name="BaseGrid" Width="300" Height="200">
+                        <Grid.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="{Binding thumb}"/>
+                        </Grid.Background>
+
+                        <Grid x:Name="Mask">
+                            <Grid.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#F2000000" Offset="1"/>
+                                    <GradientStop Offset="0.717"/>
+                                </LinearGradientBrush>
+                            </Grid.Background>
+                        </Grid>
+                        <TextBlock x:Name="Title" Margin="10,166,10,4" TextWrapping="Wrap" Text="{Binding title}" Style="{StaticResource SubtitleTextBlockStyle}" FontWeight="Normal" FontSize="18"/>
+                        <TextBlock x:Name="TimeB" Margin="209,0,4,0" TextWrapping="Wrap" Text="{Binding duration}" VerticalAlignment="Top" Height="27" FontSize="25" TextAlignment="Right" Foreground="Black" FontWeight="Bold"/>
+                        <TextBlock x:Name="TimeT" Margin="207,-1,6,0" TextWrapping="Wrap" Text="{Binding duration}" VerticalAlignment="Top" Height="27" FontSize="25" TextAlignment="Right" Foreground="White" FontWeight="Bold"/>
+                    </Grid>
+                </DataTemplate>
+            </GridView.Resources>
+            <GridView.ItemTemplate>
+                <StaticResource ResourceKey="DataTemplateGridViewMain"/>
+            </GridView.ItemTemplate>
+        </GridView>
+
+
+    </Grid>
+</Page>
+

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>XUPEIYAO-PC</Machine>
+    <WindowsUser>XuPeiYao</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1837f6ea-819a-4d3b-b584-5d940fadfc56</PackageIdentityName>
+    <RegisteredManifestChecksum>6306B2A4B6821C4C1E0B9A9F24B49ACCCE50FDCC8315DFAD099378735DC97D6C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1837f6ea-819a-4d3b-b584-5d940fadfc56_1.0.0.0_neutral__t14y33vagvpcp</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1837f6ea-819a-4d3b-b584-5d940fadfc56_t14y33vagvpcp!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1837f6ea-819a-4d3b-b584-5d940fadfc56</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=XuPeiYao</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-24T10:32:38.615</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\Xuite Player.exe">
+      <PackagePath>Xuite Player.exe</PackagePath>
+      <Modified>2014-03-24T10:44:36.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI.winmd">
+      <PackagePath>Microsoft.Advertising.WinRT.UI.winmd</PackagePath>
+      <Modified>2013-09-13T03:42:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\MicrosoftAdvertising.winmd">
+      <PackagePath>MicrosoftAdvertising.winmd</PackagePath>
+      <Modified>2013-09-13T03:42:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\Desktop\Exa\Exa\bin\Debug\Exa.dll">
+      <PackagePath>Exa.dll</PackagePath>
+      <Modified>2014-03-22T04:19:23.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\Desktop\Exa\Exa\bin\Debug\MySql.Data.dll">
+      <PackagePath>MySql.Data.dll</PackagePath>
+      <Modified>2013-06-19T09:34:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xbf">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xbf</PackagePath>
+      <Modified>2013-09-13T03:42:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\Themes\Generic.xbf">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\Themes\Generic.xbf</PackagePath>
+      <Modified>2013-09-13T03:42:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\bootstrap.html">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\bootstrap.html</PackagePath>
+      <Modified>2013-09-13T03:43:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\ormma.js">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\ormma.js</PackagePath>
+      <Modified>2013-09-13T03:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\Assets\CG\01.jpg">
+      <PackagePath>Assets\CG\01.jpg</PackagePath>
+      <Modified>2014-03-23T04:54:43.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\Assets\CG\02.jpg">
+      <PackagePath>Assets\CG\02.jpg</PackagePath>
+      <Modified>2014-03-23T04:54:43.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\Assets\CG\03.jpg">
+      <PackagePath>Assets\CG\03.jpg</PackagePath>
+      <Modified>2014-03-23T05:05:35.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-24T16:46:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-24T16:46:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-24T10:30:42.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-24T16:46:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\Assets\XUITE.png">
+      <PackagePath>Assets\XUITE.png</PackagePath>
+      <Modified>2014-03-24T10:31:06.315</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2014-03-20T16:41:42.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-03-20T16:52:38.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\Loading.xbf">
+      <PackagePath>Loading.xbf</PackagePath>
+      <Modified>2014-03-21T15:24:24.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-03-24T10:32:31.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\PlayerPage.xbf">
+      <PackagePath>PlayerPage.xbf</PackagePath>
+      <Modified>2014-03-24T10:09:36.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\SearchItem.xbf">
+      <PackagePath>SearchItem.xbf</PackagePath>
+      <Modified>2014-03-21T08:45:02.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\培堯\XuitePlayer\Xuite Player\Xuite Player\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-03-24T10:44:10.929</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
